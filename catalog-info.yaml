@@ -1,0 +1,14 @@
+
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: remove-vm-1
+  description: remove-vm
+  annotations:
+    backstage.io/kubernetes-id: remove-vm-1
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: neenspa/remove-vm-1
+spec:
+  type: api
+  lifecycle: production
+  owner: amargheritini
